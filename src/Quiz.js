@@ -14,14 +14,12 @@ class Quiz extends Component{
 showNextQuestion(){
     this.setState((state) => {
     return{quiz_position:state.quiz_position+1};
-    //this.setState((state) => {
-   //console.log(state.quiz_position+1)
-   //return{quiz_positon: state.quiz_position+1};
+
   }
 )
 }
   render(){
-    console.log("Quiz render function quiz position: "+ this.state.quiz_position)
+    
     const isQuizEnd = ((this.state.quiz_position-1) ===
     quizData.quiz_questions.length)
     return(
