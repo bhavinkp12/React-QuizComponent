@@ -13,8 +13,10 @@ class Quiz extends Component{
 
 showNextQuestion(){
     this.setState((state) => {
-    console.log(state.quiz_position+1)
-    return{quiz_positon: state.quiz_position+1};
+    return{quiz_position:state.quiz_position+1};
+    //this.setState((state) => {
+   //console.log(state.quiz_position+1)
+   //return{quiz_positon: state.quiz_position+1};
   }
 )
 }

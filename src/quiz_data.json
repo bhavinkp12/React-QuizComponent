@@ -16,7 +16,7 @@
       "id": 3,
       "instruction_text": "How many states are there in the US?",
       "answer_options": ["14", "52", "50", "35"],
-      "answer": "3"
+      "answer": "50"
     }
   ]
 }
